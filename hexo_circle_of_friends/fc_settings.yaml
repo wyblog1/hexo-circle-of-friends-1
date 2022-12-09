@@ -35,6 +35,9 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["初之图库", "https://img.himiku.com/", "https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400"],
+        ["初之音", "https://www.himiku.com/", "https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400"],
+        ["Ykuee的博客", "https://www.ykuee.link/", "https://www.ykuee.link/wp-content/uploads/2020/12/logo.png"],
         ["Sakitami的集装箱", "https://blog.skihome.xyz/", "https://blog.skihome.xyz/uploads/avatar.jpg"],
         ["iMaeGoo’s Blog", "https://www.imaegoo.com/", "https://www.imaegoo.com/images/avatar.jpg"],
         ["FelixChen的基地", "https://blog.felixchen0707.cn/", "https://i.imgtg.com/2022/06/06/n3ORs.jpg"],
