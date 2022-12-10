@@ -44,6 +44,7 @@ SETTINGS_FRIENDS_LINKS: {
         ["初之图库", "https://img.himiku.com/", "https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400"],
         ["初之音", "https://www.himiku.com/", "https://gravatar.com/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=400"],
         ["XPoet", "https://xpoet.cn/", "https://cdn.staticaly.com/gh/XPoet/image-hosting@master/common-use/avatar.jpg"],
+        ["远方博客", "https://blog.ltyuanfang.cn/", "https://blog.ltyuanfang.cn/favicon.ico"],
         ["风记星辰", "https://www.thyuu.com/", "https://std.thyuu.com/logo.png"],
         [" 星辰日记", "https://blog.xsot.cn/", "https://bu.dusays.com/2022/12/10/639388ba2543c.webp"],
         [" BBing’s Blog", "https://bbing.com.cn/", "https://bu.dusays.com/2022/06/20/62affefe3f2d4.png"],
