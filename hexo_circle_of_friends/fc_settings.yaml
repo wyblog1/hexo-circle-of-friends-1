@@ -36,6 +36,8 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["Yunc小站", "https://yczheng.top/", "https://s1.328888.xyz/2022/02/04/yvYI2.png"],
+        ["LiZiWu", "https://www.liziwu.net/", "https://www.liziwu.net/Contents/static/avatar.jpg"],
         ["Innei", "https://innei.ren/", "https://api.innei.ren/v2/objects/avatar/zzv2jig76w8x33vxi6.jpg"],
         ["Timochan", "https://www.timochan.cn/", "https://api.timochan.cn/apc/objects/icon/svhozp8tzm9vv9tu1v.png"],
         ["云游君的小站", "https://www.yunyoujun.cn/", "https://www.yunyoujun.cn/images/avatar.jpg"],
