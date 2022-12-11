@@ -36,6 +36,8 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["东方幻梦", "https://blog.badapple.pro/", "https://cdn.jsdelivr.net/gh/OrientalFantasy/file/logo/logo-640.jpg"],
+        ["皮皮凛の小窝", "owomoe.net", "https://owomoe.net/logo.webp"],
         ["秦大叔", "https://qfsyj.com/", "https://qfsyj.com/photo/logo.png"],
         ["MyBlog", "https://blog.moeqy.com/", "https://cdn.jsdelivr.net/gh/MqyGalaxy/MyBlog@latest/images/avatarLOGO.jpg"],
         ["Muggledy’s Blog", "https://muggledy.top/", "https://cdn.staticaly.com/gh/celestezj/ImageHosting/master/img/20210202134748.jpg"],
