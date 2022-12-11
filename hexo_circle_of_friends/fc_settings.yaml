@@ -17,8 +17,9 @@
 LINK:
      - {link: "https://effulgent-kringle-368d41.netlify.app/friends/", theme: "volantis"} # 友链页地址1，修改为你的友链页地址
      - {link: "https://hongweblog.com/friend", theme: "common1"} # 友链页地址2
-#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址3
-#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址4
+     - {link: "https://www.azusemisa.top/friends/", theme: "butterfly"} # 友链页地址3
+#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址4
+#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址5
 
 
 # 配置项友链
