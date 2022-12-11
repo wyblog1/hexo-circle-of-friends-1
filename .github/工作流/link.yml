@@ -1,0 +1,116 @@
+名称：更新-朋友-帖子
+
+开：
+  推送：
+    分支机构：
+      - 主要
+  时间表：
+    - cron： “0 0，6，12，18，21 * * *”
+  workflow_dispatch：
+
+环境：
+  # 在这里查看需要添加的secert
+  # 通用配置
+  SIMPLE_MODE： flash # 极简模式是否开启
+  STORAGE_TYPE：${{ 机密。STORAGE_TYPE }} # 请修改为你的存储方式，默认为leancloud
+  代理：${{ 机密。PROXY }} # 可选，http代理
+  # leancloud、mysql、sqlite、mongodb配置四选一即可
+  # 精益云配置
+  APPID： ${{ secrets.APPID }}
+  APPKEY： ${{ secrets.应用键 }}
+  # mysql配置
+  MYSQL_USERNAME：${{ 机密。MYSQL_USERNAME }} # 登录用户名
+  MYSQL_PASSWORD：${{ 机密。MYSQL_PASSWORD }} # 登录密码
+  MYSQL_IP：${{ 机密。MYSQL_IP }} # 数据库IP地址
+  MYSQL_PORT：${{ 机密。MYSQL_PORT }} # 数据库端口号
+  MYSQL_DB：${{ 机密。MYSQL_DB }} # 要连接到的库的名称
+  # sqlite配置，用于将db文件上传到github仓库
+  GITHUB_NAME：${{ 机密。GH_NAME }} # 你的github昵称
+  GITHUB_EMAIL：${{ 机密。GH_EMAIL }} # 你的 github邮箱
+  GITHUB_TOKEN：${{ 机密。GH_TOKEN }} # GitHub 令牌
+  # mongodb配置
+  MONGODB_URI：${{ 机密。MONGODB_URI }} # mongodb URI 支持'mongodb://'和'mongodb+srv：//'
+  台湾：亚洲/上海
+
+工作：
+  构建：
+    运行时间：Ubuntu-latest
+    步骤：
+    - 名称： 结帐
+      用途：操作/checkout@main
+
+    - 名称：设置蟒蛇
+      用途：操作/设置python@main
+      与：
+        蟒蛇版本：3.8
+
+    - 名称：安装要求
+      工作目录： ./hexo_circle_of_friends
+      运行： |
+点安装 -r 要求.txt
+    - 名称：设置环境
+      运行： |
+echo “BASE_PATH=$（pwd）” >> $GITHUB_ENV && echo “PYTHONPATH=$（pwd）” >> $GITHUB_ENV
+    - 名称： 精益云 更新帖子 # 精益云
+      if： ${{ env.STORAGE_TYPE == '精益云' }}
+      环境：
+        APPID： ${{ secrets.APPID }}
+        APPKEY： ${{ secrets.应用键 }}
+        链接： ${{ 秘密。链接 }}
+        代理：${{ 机密。代理 }}
+      工作目录： ./hexo_circle_of_friends
+      运行： |
+蟒蛇 run.py
+    - 名称： mysql 更新帖子 # mysql
+      if： ${{ env.STORAGE_TYPE == 'mysql' }}
+      环境：
+        MYSQL_USERNAME：${{ 机密。MYSQL_USERNAME }}
+        MYSQL_PASSWORD：${{ 机密。MYSQL_PASSWORD }}
+        MYSQL_IP：${{ 机密。MYSQL_IP }}
+        MYSQL_DB：${{ 机密。MYSQL_DB }}
+      工作目录： ./hexo_circle_of_friends
+      运行： |
+蟒蛇 run.py
+    - 名称： sqlite 更新帖子 # sqlite
+      if： ${{ env.STORAGE_TYPE == 'sqlite' ||环境。SIMPLE_MODE == 'true' }}
+      环境：
+        PYTHONPATH： ${{ env.PYTHONPATH }}
+        SQLITE_DB：${{ 机密。SQLITE_DB }}
+      运行： |
+python ./hexo_circle_of_friends/run.py
+    - 名称：推送 sqlite data # sqlite push
+      if： ${{ env.STORAGE_TYPE == 'sqlite' }}
+      用途：GitHub-actions-x/commit@v2.9
+      与：
+        GitHub-token： ${{ secrets.GITHUB_TOKEN }}
+        提交消息：“更新数据.db”
+        文件：数据.db
+        变基：“真”
+        名称： ${{ env.GITHUB_NAME }}
+        电子邮件： ${{ 环境。GITHUB_EMAIL }}
+
+    - 名称： 蒙戈布 更新帖子 # 蒙戈德
+      if： ${{ env.STORAGE_TYPE == 'mongodb' }}
+      环境：
+        MONGODB_URI：${{ 机密。MONGODB_URI }}
+      工作目录： ./hexo_circle_of_friends
+      运行： |
+蟒蛇 run.py
+    - 名称：简单模式转换 # 极简模式转换
+      if： ${{ env.SIMPLE_MODE == 'true' }}
+      运行： |
+Python ./hexo_circle_of_friends/utils/simple_mode_transform_json.py
+    - 名称：简单模式推送 # 推送极简模式
+      if： ${{ env.SIMPLE_MODE == 'true' }}
+      用途：GitHub-actions-x/commit@v2.9
+      与：
+        GitHub-token： ${{ secrets.GITHUB_TOKEN }}
+        提交消息：“更新数据.json”
+        文件： 数据.json
+        变基：“真”
+        名称：GitHub-actions[bot]
+        电子邮件： github-actions@noreply.github.com
+
+    - 名称： 保持活力
+      用途：Gautamkrishnar/keepalive-workflow@master # 防止工作流在长时间没有提交时被挂起
+      
