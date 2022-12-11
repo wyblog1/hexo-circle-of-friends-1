@@ -16,9 +16,10 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK:
      - {link: "https://effulgent-kringle-368d41.netlify.app/friends/", theme: "volantis"} # 友链页地址1，修改为你的友链页地址
-     - {link: "https://hongweblog.com/friend", theme: "common1"} # 友链页地址2，修改为你的友链页地址
-#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址3
-#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址4
+     - {link: "https://hongweblog.com/friend", theme: "common1"} # 友链页地址2
+     - {link: "https://xinger.vip/links", theme: "common1"} # 友链页地址3
+#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址4
+#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址5
 
 
 # 配置项友链
@@ -36,6 +37,10 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["😏长安不良帅'Blog", "https://yogo.ckai.cc/", "http://q2.qlogo.cn/headimg_dl?dst_uin=2230831502&spec=640"],
+        ["Jay 出", "https://tgcsblog.top/", "http://www.tgcsblog.top/img/myavatar.jpg"],
+        ["Xinger", "https://xinger.vip/", "https://xinger.vip/wp-content/uploads/2021/05/f7246b600c3387445cea66cd460fd9f9d72aa050.png"],
+        ["大雄", "https://199508.com/", "https://avatars.githubusercontent.com/u/4301287?s=48&v=4],
         ["Pluto", "https://blog.xkzs.cc/", "https://blog.xkzs.cc/upload/2022/07/pluto.png"],
         ["优盟盒子", "https://www.umsbox.com/", "https://www.umsbox.com/wp-content/uploads/2022/06/123.png"],
         ["韭菜猫", "https://amdyes.cc/", "https://amdyes.cc/wp-content/uploads/2022/11/222111.png"],
@@ -352,7 +357,6 @@ SETTINGS_FRIENDS_LINKS: {
         ["路羽博客", "https://www.luyuz.cn/", "https://www.luyuz.cn/content/templates/luyu_fee/static/img/logo.png"],
         ["DoraKika", "https://blog.dorakika.cn/", "https://img.dorakika.cn/avatar/dorakika.cn.webp"],
         ["Butterfly", "https://butterfly.js.org/", "https://img.dorakika.cn/avatar/butterfly.js.org.webp"],
-        ["无影博客", "https://661111.github.io/", "https://wyblog1.eu.org/media/images/custom-headerLogo.ico"],
         ["汀彵汐", "https://blog.izznan.cn/", "https://q2.qlogo.cn/headimg_dl?dst_uin=2461306899&spec=100"],
         ["未央童话镇", "https://forever97.top/", "https://forever97-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/avatar.png"],
         ["cizixs", "https://cizixs.com/", "https://cdn.jsdelivr.net/npm/imgscdn/img/202111192055113.jpg"],
@@ -549,7 +553,6 @@ SETTINGS_FRIENDS_LINKS: {
         ["さくら荘の白猫", "https://2heng.xin/", "https://2heng.xin/wp-content/static/apple-icon-57x57.png"],
         ["plum's blog", "https://plumz.me/", "https://plumz.me/rincoloring.png"],
         ["Sato", "https://blog.fullcomb.top", "https://cloud.fullcomb.top/private/source/image/build/Ryza/avatar.png"],
-        ["wy博客", "https://wyblog1.github.io/", "https://blog.lxbkw.com/content/templates/emlog_dux/logo.php"],
         ["金桔猪", "https://blog.learnonly.xyz", "https://hexo.pighog.repl.co/img/favicon.png"],
         ["赵阿卷", "https://blog.zwying.com/", "https://blog.zwying.com/favicon.ico"],
         ["忆梦小站", "https://www.onyi.net/", "https://i7.onyi.net/os/headportrait.webp"],
