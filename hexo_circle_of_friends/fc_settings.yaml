@@ -41,8 +41,6 @@ SETTINGS_FRIENDS_LINKS: {
         ["王叨叨", "https://wangdaodao.com/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["Yunc小站", "https://yczheng.top/", "https://s1.328888.xyz/2022/02/04/yvYI2.png"],
         ["LiZiWu", "https://www.liziwu.net/", "https://www.liziwu.net/Contents/static/avatar.jpg"],
-        ["Innei", "https://innei.ren/", "https://api.innei.ren/v2/objects/avatar/zzv2jig76w8x33vxi6.jpg"],
-        ["Timochan", "https://www.timochan.cn/", "https://api.timochan.cn/apc/objects/icon/svhozp8tzm9vv9tu1v.png"],
         ["云游君的小站", "https://www.yunyoujun.cn/", "https://www.yunyoujun.cn/images/avatar.jpg"],
         ["喵二の小博客", "https://www.miaoer.xyz/", "https://www.miaoer.xyz/weblogo.png"],
         ["网罗灯下黑", "https://wldxh.com/", "https://wldxh.com/wp-content/themes/ripro-v2/assets/img/logo.png"],
@@ -52,7 +50,6 @@ SETTINGS_FRIENDS_LINKS: {
         ["Lan小站", "https://www.lanol.cn/", "https://gitlab.com/Vastsa/lanpicbed/-/raw/master/zb_users/upload/2022/11/8d414a386fd54ec3a78e40d87f1909d5.png"],
         ["银河舰队", "https://iyinhe.cn/", "https://img.iyinhe.cn/wp-content/uploads/2020/02/1c63ad95e5f8e3.svg"],
         ["Ailoli", "https://www.ailoli.org/", "https://www.ailoli.org/cross.html"],
-        ["BBing’s Blog", "https://imcbc.cn/", "https://bu.dusays.com/2022/06/20/62affefe3f2d4.png"],
         ["Whisper", "https://blog.whispery.cn/", "https://bu.dusays.com/2022/07/25/62ddad6056eda.png"],
         ["青灯暮雨", "https://www.blatr.cn/", "https://www.blatr.cn/images/adminAvatar.jpg"],
         ["叶开博客", "https://xn--qpru0x.cn/", "https://xn--qpru0x.cn/tx.png"],
@@ -556,6 +553,9 @@ SETTINGS_FRIENDS_LINKS: {
         # 如果目标地址的后缀不在其中，就可以在这里添加
         # 比如 https://elizen.me/hello.xml ，填写：
         ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "index.xml"],
+        ["Innei", "https://innei.ren/", "https://api.innei.ren/v2/objects/avatar/zzv2jig76w8x33vxi6.jpg", "feed"],
+        ["Timochan", "https://www.timochan.cn/", "https://api.timochan.cn/apc/objects/icon/svhozp8tzm9vv9tu1v.png", "feed"],
+        ["BBing’s Blog", "https://imcbc.cn/", "https://bu.dusays.com/2022/06/20/62affefe3f2d4.png", "index.xml"],
         ["Ariasakaの小窝", "https://yisous.xyz/", "https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png", "atom.xml"],
         ["Mycpen", "https://cpen.top/", "https://image.cpen.top/image/avatar.jpg", "atom.xml"],
         ["Black Flies", "https://www.yyyzyyyz.cn/", "https://www.yyyzyyyz.cn/butterflyimg/img/favicon.png", "rss2.xml"],
