@@ -36,6 +36,8 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["韭菜猫", "https://amdyes.cc/", "https://amdyes.cc/wp-content/uploads/2022/11/222111.png"],
+        ["KEKC博客", "https://www.kekc.cn/", "https://www.kekc.cn/wp-content/uploads/2022/05/cropped-kekc-32x32.jpg"],
         ["狐仙阁", "https://www.huxianbk.cn/", "https://www.huxianbk.cn/wp-content/uploads/2022/06/logo1.png"],
         ["老徐博客", "https://bigger.ee/", "https://bigger.ee/usr/themes/amaze/banner/4.gif"],
         ["盒子萌", "https://www.boxmoe.com/", "https://www.boxmoe.com/wp-content/themes/lolimeow/assets/images/logo.png"],
