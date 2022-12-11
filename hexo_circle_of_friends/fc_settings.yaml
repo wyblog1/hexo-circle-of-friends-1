@@ -16,10 +16,11 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK:
      - {link: "https://effulgent-kringle-368d41.netlify.app/friends/", theme: "volantis"} # 友链页地址1，修改为你的友链页地址
-     - {link: "https://hongweblog.com/friend", theme: "common1"} # 友链页地址2
-     - {link: "https://xinger.vip/links", theme: "common1"} # 友链页地址3
-#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址4
-#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址5
+     - {link: "https://cbbkk.com/links/", theme: "common1"} # 友链页地址2
+     - {link: "https://hongweblog.com/friend", theme: "common1"} # 友链页地址3
+     - {link: "https://xinger.vip/links", theme: "common1"} # 友链页地址4
+#    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址5
+#    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址6
 
 
 # 配置项友链
@@ -37,6 +38,7 @@ SETTINGS_FRIENDS_LINKS: {
         # 示例1：
         ["无影博客", "https://effulgent-kringle-368d41.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
         ["无影博客", "https://timely-griffin-781b87.netlify.app/", "https://661111.github.io/media/images/custom-headerLogo.ico"],
+        ["菜逼博客", "https://cbbkk.com/", "https://cdn.jsdelivr.net/gh/flurrychan/Sakura/tx.png"],
         ["😏长安不良帅'Blog", "https://yogo.ckai.cc/", "http://q2.qlogo.cn/headimg_dl?dst_uin=2230831502&spec=640"],
         ["Jay 出", "https://tgcsblog.top/", "http://www.tgcsblog.top/img/myavatar.jpg"],
         ["Xinger", "https://xinger.vip/", "https://xinger.vip/wp-content/uploads/2021/05/f7246b600c3387445cea66cd460fd9f9d72aa050.png"],
